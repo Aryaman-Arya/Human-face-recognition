@@ -61,6 +61,24 @@ print("Shape of the weight matrix:", weights.shape)
 
 * **Query- 1**
 
+```bash
+query = faces["ns1/face1.pgm"].reshape(1,-1)
+query_weight = eigenfaces @ (query - pca.mean_).T
+print(query_weight.shape)
+euclidean_distance = np.linalg.norm(weights - query_weight, axis=0)
+print("Now to find best match !")
+best_match = np.argmin(euclidean_distance)
+print("Best match %s with Euclidean distance %f" % (facelabel[best_match], euclidean_distance[best_match]))
+# Visualize
+fig, axes = plt.subplots(1,2,sharex=True,sharey=True,figsize=(8,6))
+axes[0].imshow(query.reshape(faceshape), cmap="gray")
+axes[0].set_title("Query")
+axes[1].imshow(facematrix[best_match].reshape(faceshape), cmap="gray")
+axes[1].set_title("Best match")
+plt.show()
+```
+_ _ (similar code for queries 2, 3, 4, 5) _ _
+
 ![image](https://user-images.githubusercontent.com/75626387/197205180-43f993b1-dc45-4bf6-aca1-89b49b3a2292.png)
 
 * **Query- 2**

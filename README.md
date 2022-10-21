@@ -57,6 +57,31 @@ Now, we Generate weights as a KxN matrix where K is the number of eigenfaces and
 weights = eigenfaces @ (facematrix - pca.mean_).T
 print("Shape of the weight matrix:", weights.shape)
 ```
+## Results
+
+* **Query- 1**
+
+![image](https://user-images.githubusercontent.com/75626387/197204741-72401d8f-24fa-48f7-aa7d-8dee692eecdd.png)
+
+* **Query- 2**
+
+![image](https://user-images.githubusercontent.com/75626387/197204797-d95c0e35-fc91-4ca8-be0d-2c17a400ab42.png)
+
+* **Query- 3**
+
+![image](https://user-images.githubusercontent.com/75626387/197204840-c016d95c-8ed0-4f5f-b704-f3d2b51cac8e.png)
+
+* **Query- 4**
+
+![image](https://user-images.githubusercontent.com/75626387/197204915-ecb43d20-9c8a-4ac6-bfe4-c6a0dba96409.png)
+
+* **Query- 5**
+
+![image](https://user-images.githubusercontent.com/75626387/197204989-3832bde0-3b81-4c22-a9f4-f14d11738fc7.png)
+
+## Visualizing the mean face and random face
+
+![image](https://user-images.githubusercontent.com/75626387/197205063-93e570b9-6774-402c-b787-17d4e3f9217f.png)
 
 
 ## Authors

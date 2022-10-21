@@ -49,7 +49,8 @@ plt.show()
 
 Showing the sample eigenfaces generated from any 10 images.
 
-![index](https://user-images.githubusercontent.com/75626387/197203404-9f6ec98b-8eeb-4a09-aed9-3d5e570c983e.png)
+![image](https://user-images.githubusercontent.com/75626387/197203579-c15a0e45-cd86-424c-8261-4104202079fe.png)
+
 
 
 Now, we Generate weights as a KxN matrix where K is the number of eigenfaces and N the number of samples.

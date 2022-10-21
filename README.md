@@ -77,7 +77,7 @@ axes[1].imshow(facematrix[best_match].reshape(faceshape), cmap="gray")
 axes[1].set_title("Best match")
 plt.show()
 ```
-_ _ (similar code for queries 2, 3, 4, 5) _ _
+*(similarly for queries 2, 3, 4, and 5)*
 
 ![image](https://user-images.githubusercontent.com/75626387/197205180-43f993b1-dc45-4bf6-aca1-89b49b3a2292.png)
 

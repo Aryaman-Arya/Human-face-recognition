@@ -83,7 +83,6 @@ print("Shape of the weight matrix:", weights.shape)
 
 ![image](https://user-images.githubusercontent.com/75626387/197205687-d7b22bf7-b388-4fda-ac5b-c1a211d6a855.png)
 
-
 ## Authors
 
 - Aryaman : [@Aryaman-Arya](https://github.com/Aryaman-Arya)

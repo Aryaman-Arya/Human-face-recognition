@@ -61,27 +61,27 @@ print("Shape of the weight matrix:", weights.shape)
 
 * **Query- 1**
 
-![image](https://user-images.githubusercontent.com/75626387/197204741-72401d8f-24fa-48f7-aa7d-8dee692eecdd.png)
+![image](https://user-images.githubusercontent.com/75626387/197205180-43f993b1-dc45-4bf6-aca1-89b49b3a2292.png)
 
 * **Query- 2**
 
-![image](https://user-images.githubusercontent.com/75626387/197204797-d95c0e35-fc91-4ca8-be0d-2c17a400ab42.png)
+![image](https://user-images.githubusercontent.com/75626387/197205326-d7dd188f-a63b-4cbf-a04e-5350a58d8260.png)
 
 * **Query- 3**
 
-![image](https://user-images.githubusercontent.com/75626387/197204840-c016d95c-8ed0-4f5f-b704-f3d2b51cac8e.png)
+![image](https://user-images.githubusercontent.com/75626387/197205428-f1b324f1-dace-4b51-a234-d135cb8be54e.png)
 
 * **Query- 4**
 
-![image](https://user-images.githubusercontent.com/75626387/197204915-ecb43d20-9c8a-4ac6-bfe4-c6a0dba96409.png)
+![image](https://user-images.githubusercontent.com/75626387/197205553-a69f4246-4cbe-44f4-9b55-562eb238dcf0.png)
 
 * **Query- 5**
 
-![image](https://user-images.githubusercontent.com/75626387/197204989-3832bde0-3b81-4c22-a9f4-f14d11738fc7.png)
+![image](https://user-images.githubusercontent.com/75626387/197205622-9538bda4-b752-4f3f-b0c8-c16c2a9cab0a.png)
 
 ## Visualizing the mean face and random face
 
-![image](https://user-images.githubusercontent.com/75626387/197205063-93e570b9-6774-402c-b787-17d4e3f9217f.png)
+![image](https://user-images.githubusercontent.com/75626387/197205687-d7b22bf7-b388-4fda-ac5b-c1a211d6a855.png)
 
 
 ## Authors

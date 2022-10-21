@@ -54,7 +54,6 @@ Showing the sample eigenfaces generated from any 10 images.
 Now, we Generate weights as a KxN matrix where K is the number of eigenfaces and N the number of samples.
 
 ```bash
-# Generate weights as a KxN matrix where K is the number of eigenfaces and N the number of samples
 weights = eigenfaces @ (facematrix - pca.mean_).T
 print("Shape of the weight matrix:", weights.shape)
 ```

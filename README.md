@@ -83,6 +83,8 @@ print("Shape of the weight matrix:", weights.shape)
 
 ![image](https://user-images.githubusercontent.com/75626387/197205687-d7b22bf7-b388-4fda-ac5b-c1a211d6a855.png)
 
+By experimenting values of Principal Components from 1 to 10, we find that values below 5 predict with 90% accuracy and values above 5 give 100% accurate results. PC = 5 gives least Euclidean Distances on all faces.
+
 ## Authors
 
 - Aryaman : [@Aryaman-Arya](https://github.com/Aryaman-Arya)

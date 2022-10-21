@@ -26,9 +26,11 @@ Principal Component Analysis.
 We firstly read all the images from the downloaded Zip File by using the zipfile library. Then we show 10 sample faces from the dataset using the matplotlib library. Following to this we print the details, the number of people detected and the total number of images and then iterate through the dataset and use smiling faces as the Training dataset. We select non-smiling faces for the testing data. 
 
 Training Data
+
 ![index](https://user-images.githubusercontent.com/75626387/197199362-a9f59605-5ed1-40f0-bd72-23d913029ad0.png)
 
 Testing Data
+
 ![index](https://user-images.githubusercontent.com/75626387/197199387-c0969a80-d8e9-4c12-803c-d706f3a387b4.png)
 
 
